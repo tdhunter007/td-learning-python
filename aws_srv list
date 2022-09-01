@@ -1,0 +1,31 @@
+# td-learning-python
+
+#Ty learning-python project for Week 12- listing `services using Python
+#starting with an empty list, AWS Service Inventory:IE: S3, Lambda, EC2, etc
+
+
+
+aws_srv list =[]
+print (aws_srv list)
+
+#Populate the list using append or insert.
+
+aws_srv list =[]
+
+aws_srv list.append ('S3')
+aws_srv list.append ('Lambda')
+aws_srv list.append ('EC2')
+aws_srv list.append ('Cloud 9')
+aws_srv list.append ('SNS')
+aws_srv list.append ('SQS')
+
+#Print the list and the length of the list.
+print(aws_srv list)
+print(len(aws_srv list))
+
+#Remove two specific services from the list by name or by index.
+del aws_srv list[4,5]
+
+#Print the new list and the new length of the list.
+print(aws_srv list)
+print(len(aws_srv list))
